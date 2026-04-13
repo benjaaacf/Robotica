@@ -37,7 +37,7 @@ Se requiere un movimiento curvo constante y sostenido. Para lograrlo, debes asig
 
 
 ## Linea Recta:
-
+```
 from controller import Robot
 
 robot = Robot()
@@ -66,9 +66,9 @@ def dibujar_recta():
     mover(3.14, 3.14, 10.0)
 
 dibujar_recta()
-
+```
 ## Curva:
-
+```
 from controller import Robot
 
 robot = Robot()
@@ -97,11 +97,11 @@ def dibujar_curva():
     mover(4.0, 2.0, 3.0)
 
 dibujar_curva()
-
+```
 ## Circulo:
 
-from controller import Robot
-
+```from controller import Robot```
+```
 robot = Robot()
 timestep = int(robot.getBasicTimeStep())
 
@@ -128,9 +128,9 @@ def dibujar_circulo():
     mover(3.14, 0.5, 6.6) 
 
 dibujar_circulo()
-
+```
 ## Movimiento en 8:
-
+```
 from controller import Robot
 
 from controller import Robot
@@ -162,4 +162,4 @@ def dibujar_ocho():
     mover(0.5, 3.14, 6.2)
     mover(3.14, 0.5, 3.1)
 
-dibujar_ocho()
+dibujar_ocho()```
