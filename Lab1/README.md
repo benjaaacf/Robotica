@@ -99,9 +99,9 @@ def dibujar_curva():
 dibujar_curva()
 ```
 ## Circulo:
-
-```from controller import Robot```
 ```
+from controller import Robot
+
 robot = Robot()
 timestep = int(robot.getBasicTimeStep())
 
@@ -162,4 +162,4 @@ def dibujar_ocho():
     mover(0.5, 3.14, 6.2)
     mover(3.14, 0.5, 3.1)
 
-dibujar_ocho()```
+dibujar_ocho()
