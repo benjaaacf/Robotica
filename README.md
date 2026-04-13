@@ -1,6 +1,5 @@
 # Laboratorio-1
 
-# Laboratorio 1: Simulación de un Robot Móvil Diferencial en Webots
 
 ## Descripción del laboratorio
 Este laboratorio tiene como objetivo comprender el comportamiento cinemático de un robot móvil de tracción diferencial utilizando el simulador Webots. 
