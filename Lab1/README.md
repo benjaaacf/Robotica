@@ -133,6 +133,8 @@ dibujar_circulo()
 
 from controller import Robot
 
+from controller import Robot
+
 robot = Robot()
 timestep = int(robot.getBasicTimeStep())
 
@@ -154,10 +156,10 @@ def mover(v_izq, v_der, tiempo_segundos):
     left_motor.setVelocity(0.0)
     right_motor.setVelocity(0.0)
 
-def dibujar_circulo():
-    print("Dibujando círculo...")
+def dibujar_ocho():
+    print("Dibujando ocho...")
     mover(3.14, 0.5, 3.1) 
     mover(0.5, 3.14, 6.2)
     mover(3.14, 0.5, 3.1)
 
-dibujar_circulo()
+dibujar_ocho()
